@@ -1,6 +1,7 @@
-var total = 0;
-for (var i = 2; i < process.argv.length; i++) {
-  total += Number(process.argv[i]);
-}
+var numsArr = process.argv.splice(2);
 
-console.log(total);
+var sum = numsArr.reduce(function(acc, val){
+  return Number(acc) + Number(val);
+}, 0);
+
+console.log(sum);
