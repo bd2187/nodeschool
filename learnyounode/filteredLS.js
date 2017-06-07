@@ -11,6 +11,5 @@ module.exports = function(dirName, ext, cb) {
       });
       cb(null, filtered);
     }
-
   });
 }

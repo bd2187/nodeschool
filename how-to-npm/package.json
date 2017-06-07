@@ -1,11 +1,19 @@
 {
-  "name": "how-to-npm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@bd2187/how-to-npm",
+  "version": "1.0.01",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Brandon",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "How-to-npm",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "devDependencies": {}
 }
